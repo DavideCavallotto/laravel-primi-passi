@@ -6,7 +6,9 @@
     <title>Laravello</title>
 </head>
 <body>
+    @include('header')
     <p>Mi chiamo {{ $name }} {{ $surname }} e sono {{ $age }}</p>
+    
     
 </body>
 </html>

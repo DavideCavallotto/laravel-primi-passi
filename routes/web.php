@@ -23,3 +23,16 @@ Route::get('/', function () {
     return view('home', $data);
 });
 
+Route::get('/hello', function () {
+   
+
+    return view('hello');
+})->name('hello');
+
+Route::get('/world', function () {
+   
+
+    return view('world');
+})->name('world');
+
+

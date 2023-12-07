@@ -8,6 +8,9 @@
 <body>
     @include('header')
     <p>Mi chiamo {{ $name }} {{ $surname }} e sono {{ $age }}</p>
+    <a href="{{route('hello')}}">Vai a Hello</a>
+    <a href="{{route('world')}}">Vai a World</a>
+
     
     
 </body>
